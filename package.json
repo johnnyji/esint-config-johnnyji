@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-johnnyji",
+  "version": "1.0.0",
+  "description": "My eslint config rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnyji/esint-config-johnnyji.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "babel",
+    "react"
+  ],
+  "author": "Johnny Ji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnnyji/esint-config-johnnyji/issues"
+  },
+  "homepage": "https://github.com/johnnyji/esint-config-johnnyji#readme",
+  "devDependencies": {
+    "eslint": "^2.5.1",
+    "eslint-plugin-babel": "^3.1.0",
+    "eslint-plugin-react": "^4.2.3"
+  }
+}
