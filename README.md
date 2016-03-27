@@ -18,7 +18,7 @@ Create a `.eslintrc.js` file in the root of the project directory:
 // .eslintrc.js
 
 module.exports = {
-  extends: './node_modules/eslint-config-johnnyji/index.js' 
+  extends: require.resolve('./node_modules/eslint-config-johnnyji/index.js')
 }; 
 ```
 
