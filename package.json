@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-johnnyji",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "My eslint config rules",
   "main": "index.js",
   "scripts": {
