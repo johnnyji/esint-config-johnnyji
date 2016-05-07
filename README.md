@@ -9,8 +9,8 @@ Install as a dev dependency:
 `npm i -D eslint-config-johnnyji`
 
 
-Install eslint dependencies: 
-`npm i -D eslint eslint-plugic-react eslint-plugin-babel`
+Install as a dev dependency along with eslint dependencies: 
+`npm i -D eslint-config-johnnyji eslint eslint-plugin-react eslint-plugin-babel babel-eslint`
 
 
 Create a `.eslintrc.js` file in the root of the project directory:

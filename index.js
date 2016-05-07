@@ -5,6 +5,7 @@ module.exports = {
     'es6': true
   },
   'extends': ['eslint:recommended', 'plugin:react/recommended'],
+  'parser': 'babel-eslint',
   'parserOptions': {
     'ecmaFeatures': {
       'classes': true,
@@ -21,7 +22,7 @@ module.exports = {
   'rules': {
     'array-bracket-spacing': [2, 'never'],
     'babel/arrow-parens': [2, 'always'],
-    'babel/new-cap': 2,
+    'babel/new-cap': 0,
     'babel/object-shorthand': 1,
     'block-scoped-var': 2,
     'constructor-super': 2,
@@ -45,7 +46,8 @@ module.exports = {
     'react/no-direct-mutation-state': 2,
     'react/no-is-mounted': 2,
     'react/no-unknown-property': 2,
-    'quotes': [2, 'single'],
-    'semi': [2, 'always']
+    'quotes': [2, 'single', {'avoidEscape': true, 'allowTemplateLiterals': true}],
+    'semi': [2, 'always'],
+    'strict': 0
   }
 };
