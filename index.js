@@ -99,7 +99,7 @@ module.exports = {
     'one-var-declaration-per-line': 2,
     'prefer-arrow-callback': 2,
     'prefer-const': 2,
-    'prefer-rest-params',
+    'prefer-rest-params': 2,
     'prefer-spread': 2,
     'prefer-template': 2,
     // Only use single quotes and backticks except for when the string itself contains single quotes
