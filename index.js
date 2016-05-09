@@ -38,12 +38,11 @@ module.exports = {
     // Does not allow spacing inside object property accessors: use `obj[a]`, not `obj[ a ]`
     'computed-property-spacing': [2, 'never'],
     'constructor-super': 2,
-    // Multi-line chaining must start new-line chained properties with a dot
-    'dot-location': [2, 'object'],
+    'dot-location': [2, 'property'],
     // Must use triple equality check, except for checking null/undefined
     'eqeqeq': [2, 'allow-null'],
     'indent': [2, 2, {'SwitchCase': 1}],
-    'key-spacing': [2, {'beforeColon': false, 'afterColon': true, 'mode': ' strict'}],
+    'key-spacing': [2, {'beforeColon': false, 'afterColon': true, 'mode': 'strict'}],
     'linebreak-style': [2, 'unix'],
     'no-array-constructor': 2,
     'no-const-assign': 2,
@@ -61,7 +60,6 @@ module.exports = {
     'no-lone-blocks': 2,
     'no-loop-func': 2,
     'no-multi-spaces': 2,
-    'no-native-assign': 2,
     'no-new': 2,
     // Cannot do `new Function(...)`
     'no-new-func': 2,
@@ -77,7 +75,7 @@ module.exports = {
     'no-plusplus': 2,
     'no-redeclare': 2,
     'no-return-assign': 2,
-    'no-scrip-url': 2,
+    'no-script-url': 2,
     'no-self-assign': 2,
     'no-self-compare': 2,
     'no-sequences': 2,
@@ -88,7 +86,7 @@ module.exports = {
     // Must always modify loops to prevent infinite looping
     'no-unmodified-loop-condition': 2,
     // Disallows ternary operators when unneccesary
-    'no-uneeded-ternary': 2,
+    'no-unneeded-ternary': 2,
     'no-unused-expressions': 2,
     // No empty `constructor()` in classes
     'no-useless-constructor': 2,
