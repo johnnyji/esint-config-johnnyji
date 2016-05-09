@@ -9,11 +9,12 @@ A set of rules I've adopted to keep my code sane. Gotta love those single quotes
 ### Install dependencies:
 `npm i -D eslint-config-johnnyji eslint eslint-plugin-react eslint-plugin-babel babel-eslint`
 
-### NOTE: There is an error with `babel-eslint`, see: https://github.com/AtomLinter/linter-eslint/issues/459
-This will break linting in editors views such as Sublime Text or VIM.
-In order to solve this, install `babel-eslint` globally:
+### NOTE:
+ESLint will sometimes have trouble finding `babel-eslint` or other modules when using `extends` in
+your `eslintrc`. This can cause in-editor linting to not work properly. In order to avoid
+this, it's best to also install any ESLint dependencies globally as well,
 
-`npm i -g babel-eslint`
+`npm i -g eslint-config-johnnyji eslint eslint-plugin-react eslint-plugin-babel babel-eslint`
 
 ### `.eslintrc.js` configuration:
 Create a `.eslintrc.js` file in the root of the project directory:
