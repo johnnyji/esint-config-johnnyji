@@ -113,7 +113,7 @@ module.exports = {
     'react/no-direct-mutation-state': 2,
     'react/no-is-mounted': 2,
     'react/no-unknown-property': 2,
-    'react/prop-types': [2, {'ignore': ['children']}]
+    'react/prop-types': [2, {'ignore': ['children']}],
     'semi': [2, 'always'],
     'spaced-comment': [2, 'always'],
     'strict': [2, 'global']
